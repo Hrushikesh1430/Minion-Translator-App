@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Translation App</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+    }
+    .header{
+        text-align: center;
+        background-color: #FCE029;
+        margin: 0px;
+        padding: 40px;
+    }
+    .header h1{
+        margin: 0px;
+        padding: 0px;
+    }
+    textarea{
+        display: block;
+       
+    }
+    label{
+        margin-bottom: 30px;
+        display: block;
+    }
+    #my_button{
+        margin-bottom: 30px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .content button{
+       width:150px;
+       padding:10px;
+       background-color: #FCE029;
+       border: 2px solid transparent;
+       border-radius: 8px;
+       cursor: pointer;
+       font-size: 18px;
+       font-weight: bold;
+       
+    }
+    .content label{
+       margin:40px 10px;
+       
+    }
+    .content textarea{
+        outline: none;
+        width:500px;
+        height:100px;
+        margin:40px 10px;
+        padding: 10px;
+        border:2px solid #FCE029;
+        box-shadow: 0 0 10px #FCE029;
+    }
+    .content textarea:focus {
+        border:2px solid #FCE029;
+    }
+    .content #output{
+        border:2px solid #FCE029;
+        width:500px;
+        height:100px;
+        overflow-y: auto;
+        overflow-x: auto;
+        box-shadow: 0 0 10px #FCE029;
+     
+    }
+    .content p{
+        font-weight: bold;
+    }
+ 
+</style>
+<body>
+
+    <div class="header">
+        <h1>Welcome to the Minion Translation App</h1>
+    </div>
+    <div class="content">
+   
+        <textarea rows="" cols="20" id="my_text" placeholder="Enter your text to be translated to minion app"></textarea>
+
+        <button id="my_button">Translate</button>
+        <p>Your minon translated text is here:</p>
+        <div id="output"></div>
+    </div>
+  
+        
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
