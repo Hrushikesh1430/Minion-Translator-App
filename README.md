@@ -1,6 +1,6 @@
 # Project Title
 
-Expense Tracker
+Minion Translator App
 
 ## Demo link:
 
