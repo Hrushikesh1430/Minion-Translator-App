@@ -16,7 +16,7 @@ Preview link - https://minion-translator-82.netlify.app/
 
 ## About The App
 
-Minion Translator App Translattes your input text to Minion Translated Text
+Minion Translator App Translates your input text to Minion Translated Text
 
 ## Screenshots
 
