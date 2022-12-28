@@ -12,7 +12,7 @@ Preview link - https://minion-translator-82.netlify.app/
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Approach](#approach)
-- [Setup](#setup)
+
 
 ## About The App
 
@@ -20,8 +20,8 @@ Minion Translator App Translattes your input text to Minion Translated Text
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/61748949/201513292-37c8d18a-37f1-4ae5-b253-4531b9b70c64.png)
-![image](https://user-images.githubusercontent.com/61748949/201513303-71e7cdb7-89f0-4366-a7f8-d1a07087e617.png)
+![image](https://user-images.githubusercontent.com/61748949/209804300-c9c94535-3e3b-4a02-90b7-8f7728c5f6d8.png)
+
 
 ## Technologies
 
